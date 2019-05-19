@@ -27,6 +27,7 @@
         .flash-messages#flash-messages
 
       #main{:role => "main"}
+        = render partial: "shared/donate"
         - if current_page?(:activity_stream)
           %h3
             = t("streams.activity.title")

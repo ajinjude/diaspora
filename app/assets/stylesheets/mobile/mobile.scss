@@ -873,3 +873,12 @@ select#aspect_ids_ {
   // The fetching of the pod version is not done on mobile currently so we hide this alert.
   display: none;
 }
+
+#donation_bar{
+  background-color: #40c8df;
+  padding: 0.5em 1em 0.5em 1.5em;
+  color: white;
+  font-size: 1.1em;
+  margin: 0 0 1em 0;
+  text-align: center;
+}
